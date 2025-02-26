@@ -1,0 +1,71 @@
+{
+    "providers": [
+        {
+            "name": "Dr. Aarushi Sharma",
+            "provider_usertype": "therapist",
+            "is_inhouse": "Inhouse",
+            "id": 101,
+            "image": "https://randomuser.me/api/portraits/women/1.jpg",
+            "clinic_details": {
+                "id": 1,
+                "name": "Bandra Clinic"
+            },
+            "availabilities": [
+                {
+                    "date": "2025-02-26",
+                    "online_slots": ["08:00", "07:15", "08:30"],
+                    "offline_slots": ["09:00", "09:00"],
+                    "both_slots": ["10:00", "01:00"],
+                    "online_booked_slots": ["08:00"],
+                    "offline_booked_slots": ["09:00"],
+                    "blocked_slots": [{"slot": "11:00", "reason": "Unwell" }]
+                }
+            ]
+        },
+        {
+            "name": "Anjana Thattil",
+            "provider_usertype": "psychiatrist",
+            "is_inhouse": "Inhouse",
+            "id": 102,
+            "image": "https://randomuser.me/api/portraits/women/2.jpg",
+            "clinic_details": {
+                "id": 2,
+                "name": "Andheri Clinic"
+            },
+            "availabilities": [
+                {
+                    "date": "2025-02-27",
+                    "online_slots": ["10:00", "10:15", "10:30"],
+                    "offline_slots": ["11:00", "11:15"],
+                    "both_slots": ["12:00"],
+                    "online_booked_slots": ["10:30"],
+                    "offline_booked_slots": ["11:15"],
+                    "blocked_slots": [{"slot": "12:30", "reason": "Unwell" }]
+                }
+            ]
+        },
+        {
+            "name": "Dr. Amiya Banerjee",
+            "provider_usertype": "psychiatrist",
+            "is_inhouse": "Inhouse",
+            "id": 103,
+            "image": "https://randomuser.me/api/portraits/men/3.jpg",
+            "clinic_details": {
+                "id": 3,
+                "name": "Juhu Clinic"
+            },
+            "availabilities": [
+                {
+                    "date": "2025-02-25",
+                    "online_slots": ["14:00", "19:00", "17:00"],
+                    "offline_slots": ["1:00"],
+                    "both_slots": ["16:00"],
+                    "online_booked_slots": ["14:00"],
+                    "offline_booked_slots": ["15:00"],
+                    "blocked_slots": [{"slot": "7:30", "reason": "Unwell" }]
+                }
+            ]
+        }
+        
+    ]
+}
